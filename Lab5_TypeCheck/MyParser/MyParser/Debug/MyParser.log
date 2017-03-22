@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/12/6 13:09:52。
+项目“C:\Users\MacDo\Desktop\Compilers\MyParser\MyParser\MyParser.vcxproj”在节点 2 上(Build 个目标)。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D Win32 /D YYDEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Lab5_TypeCheck\mylexer.c ..\..\Lab5_TypeCheck\myparser.c ..\..\Lab5_TypeCheck\tree.c ..\..\Lab5_TypeCheck\typecheck.c
+  typecheck.c
+c:\users\macdo\desktop\compilers\lab5_typecheck\typecheck.c(45): warning C4047: “==”:“TokenType”与“char [3]”的间接级别不同
+c:\users\macdo\desktop\compilers\lab5_typecheck\typecheck.c(46): warning C4047: “==”:“TokenType”与“char [2]”的间接级别不同
+c:\users\macdo\desktop\compilers\lab5_typecheck\typecheck.c(46): warning C4047: “==”:“TokenType”与“char [3]”的间接级别不同
+  tree.c
+  myparser.c
+.\myparser.y(679): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(761): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(768): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(775): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(782): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(789): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(796): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(803): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(810): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(817): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(824): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(831): warning C4047: “=”:“TokenType”与“char [3]”的间接级别不同
+.\myparser.y(840): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(848): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(857): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(864): warning C4047: “=”:“TokenType”与“char [2]”的间接级别不同
+.\myparser.y(999): warning C4028: 形参 1 与声明不同
+.\myparser.y(999): warning C4029: 声明的形参表不同于定义
+  mylexer.c
+  正在生成代码...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MacDo\Desktop\Compilers\MyParser\Debug\MyParser.exe" /INCREMENTAL /NOLOGO ylmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Debug\MyParser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Debug\MyParser.lib" /MACHINE:X86 /SAFESEH:NO Debug\mylexer.obj
+  Debug\myparser.obj
+  Debug\symtab.obj
+  Debug\tree.obj
+  Debug\typecheck.obj
+  MyParser.vcxproj -> C:\Users\MacDo\Desktop\Compilers\MyParser\Debug\MyParser.exe
+已完成生成项目“C:\Users\MacDo\Desktop\Compilers\MyParser\MyParser\MyParser.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10

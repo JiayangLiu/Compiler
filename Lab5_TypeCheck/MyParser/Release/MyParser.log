@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/11/6 15:03:04。
+项目“C:\Users\MacDo\Desktop\Compilers\MyParser\MyParser\MyParser.vcxproj”在节点 2 上(Rebuild 个目标)。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 对路径“c:\users\macdo\desktop\compilers\myparser\release\myparser.exe”的访问被拒绝。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D Win32 /D ",YYDEBUG" /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Lab3_Lex\mylexer.c
+  mylexer.c
+.\mylexer.l(97): warning C4013: “lookup_wordID”未定义；假设外部返回 int
+.\mylexer.l(99): warning C4013: “add_word”未定义；假设外部返回 int
+.\mylexer.l(107): warning C4013: “lookup_wordNum”未定义；假设外部返回 int
+.\mylexer.l(132): warning C4047: “return”:“int”与“char *”的间接级别不同
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\MyParser.exe" /INCREMENTAL:NO /NOLOGO ylmt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\MyParser.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\MyParser.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\mylexer.obj
+LINK : fatal error LNK1104: 无法打开文件“C:\Users\MacDo\Desktop\Compilers\MyParser\Release\MyParser.exe”
+已完成生成项目“C:\Users\MacDo\Desktop\Compilers\MyParser\MyParser\MyParser.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.97

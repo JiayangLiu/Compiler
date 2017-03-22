@@ -1,0 +1,38 @@
+[Application]
+WindowPlacement=0 1 -32000 -32000 -1 -1 160 34 1240 879
+[Editor1]
+FileName=..\Reference\C-Minus-Compiler-master\c-grammar.y
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -1 -1 29 33 855 532
+WindowOrder1=2
+Position001=0 330
+Cursor001=36 341 36 341
+SyntaxColouring=2
+TargetSyntaxColouring=3
+[Editor2]
+FileName=..\Reference\C-Minus-Compiler-master\c-grammar.lex
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -1 -1 40 226 866 725
+WindowOrder1=3
+Position001=0 87
+Cursor001=37 111 37 111
+SyntaxColouring=1
+TargetSyntaxColouring=3
+[Editor3]
+FileName=.\mylexer.l
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -1 -1 485 -1 1311 499
+WindowOrder1=4
+Position001=0 1
+Cursor001=0 1 0 1
+SyntaxColouring=1
+TargetSyntaxColouring=3
+[Editor4]
+FileName=.\myparser.y
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -1 -1 493 52 1062 687
+WindowOrder1=1
+Position001=0 238
+Cursor001=10 255 10 255
+SyntaxColouring=2
+TargetSyntaxColouring=3

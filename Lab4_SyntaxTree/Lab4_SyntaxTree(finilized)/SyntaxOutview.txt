@@ -1,0 +1,148 @@
+program				: declaration_list
+					;
+			
+declaration_list	: declaration_list declaration
+					| declaration
+					;
+
+declaration			: var_declaration
+					| fun_declaration
+					| fun_defination
+					;
+			
+var_declaration		: type_specifier ID_list SEMICOLON
+					;
+
+type_specifier		: INT
+					| CHAR
+					| FLOAT
+					| BOOL
+					| VOID
+					| /* empty */
+					;
+
+ID_list				: ID_list COMMA ID_get
+					| ID_list COMMA assign_decl
+					| assign_decl
+					| ID_get
+					;
+
+assign_decl			: ID_get ASSIGN expression
+					;
+
+ID_get				: ID
+					;
+
+ID_lookup			: ID
+					;
+
+fun_declaration		: type_specifier ID_get LP params RP SEMICOLON
+					;
+
+fun_defination		: type_specifier ID_get LP params RP compound_stmt
+					;
+					
+params				: params param_list
+					| /* empty */
+					;
+
+param_list			: param_list COMMA param
+					| param
+					;
+
+param				: type_specifier ID_get
+					| type_specifier ID_get LS RS
+					;
+
+local_declaration	: local_declaration var_declaration
+					| /* empty */
+					;
+
+statement_list		: statement_list statement
+					| /* empty */
+					;
+
+statement			: expression_stmt
+					| compound_stmt
+					| if_stmt
+					| while_stmt
+					| for_stmt
+					| assign_stmt
+					| return_stmt
+					;
+
+expression_stmt		: expression SEMICOLON
+					| SEMICOLON
+					;
+
+compound_stmt		: LB local_declaration statement_list RB
+					;
+
+if_stmt				: IF LP expression RP statement
+					| IF LP expression RP statement ELSE statement
+					;
+
+while_stmt			: WHILE LP expression RP LB statement_list RB
+					;
+
+for_stmt			: FOR LP expression_list SEMICOLON expression_list SEMICOLON expression_list RP statement_list
+					;
+
+expression_list		:expression
+					| /* empty */
+					;
+
+assign_stmt			: ID_lookup ASSIGN expression
+					;
+
+return_stmt			: RETURN SEMICOLON
+					| RETURN expression SEMICOLON
+					;
+
+expression			: expression relop expression
+					| NOT expression
+					| expression addop expression
+					| expression mulop expression
+					| expression
+					| LP expression RP
+					| factor
+					;
+					
+relop				: EQ
+					| NE
+					| LE
+					| GE
+					| LT
+					| GT
+					| AND
+					| OR
+					| XOR
+					| L_SHIFT
+					| R_SHIFT
+					;
+
+addop				: ADD
+					| SUB
+					;
+					
+mulop				: MUL
+					| DIV
+					;
+
+factor				: LP expression RP
+					| ID_get
+					| fun_call
+					| NUM_Int
+					| NUM_Float
+					;					
+
+fun_call			: ID_get LP args RP
+					;
+
+args				: arg_list
+					| /* empty */
+					;
+
+arg_list			: arg_list COMMA expression
+					| expression
+					;

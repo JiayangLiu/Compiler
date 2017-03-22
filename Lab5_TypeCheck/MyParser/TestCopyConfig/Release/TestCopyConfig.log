@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/10/19 19:59:09。
+项目“C:\Users\MacDo\Desktop\Compilers\MyParser\TestCopyConfig\TestCopyConfig.vcxproj”在节点 2 上(Build 个目标)。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D Win32 /D ",YYDEBUG" /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Lab2_Yacc\0_Example\ExpreCalculator\myparser.c
+  myparser.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\TestCopyConfig.exe" /INCREMENTAL:NO /NOLOGO ylmt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\TestCopyConfig.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MacDo\Desktop\Compilers\MyParser\Release\TestCopyConfig.lib" /MACHINE:X86 /SAFESEH Release\myparser.obj
+  正在生成代码
+  已完成代码的生成
+ylmt.lib(yyaspar.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyaswrk.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyassup.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyaswip.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyaspush.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyasdisc.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyasserr.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyasdci.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyasdpop.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyassofw.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyassssz.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+ylmt.lib(yyasperr.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+C:\Users\MacDo\Desktop\Compilers\MyParser\Release\TestCopyConfig.exe : fatal error LNK1281: 无法生成 SAFESEH 映像。
+已完成生成项目“C:\Users\MacDo\Desktop\Compilers\MyParser\TestCopyConfig\TestCopyConfig.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.28

@@ -1,0 +1,11 @@
+[Application]
+WindowPlacement=0 1 -1 -1 -1 -1 101 102 1257 821
+[Editor1]
+FileName=.\myparser.y
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -1 -1 0 0 954 425
+WindowOrder1=1
+Position001=0 1
+Cursor001=0 1 0 1
+SyntaxColouring=2
+TargetSyntaxColouring=3
